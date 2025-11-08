@@ -1,28 +1,28 @@
 [
   {
-    "id": "uuid-1",
-    "term": "presumption of innocence",
+    "id": "a0b9ba17-cbff-46dc-a88d-ae52ebf6df4e",
+    "term": "summary offence",
     "topicTags": [
       "U3AOS1",
       "U3"
     ],
     "aliases": [
-      "innocent until proven guilty"
+      "summary offences"
     ]
   },
   {
-    "id": "uuid-2",
-    "term": "standard of proof",
+    "id": "d7cb380c-9d01-4666-81fc-5f8e90dda1d3",
+    "term": "indictable offence",
     "topicTags": [
       "U3AOS1",
       "U3"
     ],
     "aliases": [
-      "beyond reasonable doubt"
+      "indictable offences"
     ]
   },
   {
-    "id": "uuid-3",
+    "id": "03ef2fd6-72e3-47b5-a3f1-f052abe6713c",
     "term": "burden of proof",
     "topicTags": [
       "U3AOS1",
@@ -33,19 +33,247 @@
     ]
   },
   {
-    "id": "uuid-4",
+    "id": "6e8a1de0-cbec-4f3c-bbee-a5ba11183082",
+    "term": "standard of proof",
+    "topicTags": [
+      "U3AOS1",
+      "U3"
+    ],
+    "aliases": [
+      "beyond reasonable doubt",
+      "standard"
+    ]
+  },
+  {
+    "id": "b79fcc0b-7096-4760-8af7-35bbc51324b5",
+    "term": "presumption of innocence",
+    "topicTags": [
+      "U3AOS1",
+      "U3"
+    ],
+    "aliases": [
+      "innocent until proven guilty"
+    ]
+  },
+  {
+    "id": "8bd924cf-9848-440d-bd87-b182a1439c4d",
+    "term": "right to be tried without unreasonable delay",
+    "topicTags": [
+      "U3AOS1",
+      "U3"
+    ],
+    "aliases": [
+      "trial without unreasonable delay"
+    ]
+  },
+  {
+    "id": "9a18a67b-c6a0-425c-b0e3-6cdad5cba039",
+    "term": "right to trial by jury",
+    "topicTags": [
+      "U3AOS1",
+      "U3"
+    ],
+    "aliases": [
+      "jury trial"
+    ]
+  },
+  {
+    "id": "679bdb69-c056-4881-b318-58932a7aa39e",
+    "term": "right to silence",
+    "topicTags": [
+      "U3AOS1",
+      "U3"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "8606d802-0d0f-425b-bc73-382e71c6ac28",
+    "term": "Victoria Legal Aid (VLA)",
+    "topicTags": [
+      "U3AOS1",
+      "U3"
+    ],
+    "aliases": [
+      "VLA"
+    ]
+  },
+  {
+    "id": "6a6cd631-9a35-41e5-831e-c4044298f4ce",
+    "term": "community legal centre",
+    "topicTags": [
+      "U3AOS1",
+      "U3"
+    ],
+    "aliases": [
+      "CLC",
+      "community legal centres"
+    ]
+  },
+  {
+    "id": "ce32a9c4-687d-4517-ad9c-6d0a8ceae1d7",
     "term": "plea negotiations",
+    "topicTags": [
+      "U3AOS1",
+      "U3"
+    ],
+    "aliases": [
+      "plea bargaining",
+      "plea negotiation"
+    ]
+  },
+  {
+    "id": "b4337d0e-7f94-46da-8d87-77d5535599ab",
+    "term": "purposes of sanctions",
+    "topicTags": [
+      "U3AOS1",
+      "U3"
+    ],
+    "aliases": [
+      "punishment",
+      "deterrence",
+      "denunciation",
+      "protection",
+      "rehabilitation"
+    ]
+  },
+  {
+    "id": "49f49d5a-8e0a-44c5-8bd6-a30c64f37650",
+    "term": "fine",
+    "topicTags": [
+      "U3AOS1",
+      "U3"
+    ],
+    "aliases": [
+      "fines"
+    ]
+  },
+  {
+    "id": "55803501-704d-4fb6-a6db-2a679339a333",
+    "term": "community correction order",
+    "topicTags": [
+      "U3AOS1",
+      "U3"
+    ],
+    "aliases": [
+      "CCO",
+      "community corrections order",
+      "community correction orders"
+    ]
+  },
+  {
+    "id": "8c6ac0ec-de19-4966-b287-c166ddd2c328",
+    "term": "imprisonment",
+    "topicTags": [
+      "U3AOS1",
+      "U3"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "58fb1a21-fc35-4692-8f84-ea8db9c2ff2a",
+    "term": "aggravating factors",
+    "topicTags": [
+      "U3AOS1",
+      "U3"
+    ],
+    "aliases": [
+      "aggravating factor"
+    ]
+  },
+  {
+    "id": "db4184ea-4597-4249-b276-2503d766de9f",
+    "term": "mitigating factors",
+    "topicTags": [
+      "U3AOS1",
+      "U3"
+    ],
+    "aliases": [
+      "mitigating factor"
+    ]
+  },
+  {
+    "id": "da48fe99-6eb3-4303-884f-461d7e026046",
+    "term": "victim impact statement",
+    "topicTags": [
+      "U3AOS1",
+      "U3"
+    ],
+    "aliases": [
+      "victim impact statements",
+      "VIS"
+    ]
+  },
+  {
+    "id": "f88ecb65-393e-41d4-b2c0-2c884c9be44a",
+    "term": "roles of judge, jury, parties and legal practitioners",
+    "topicTags": [
+      "U3AOS1",
+      "U3"
+    ],
+    "aliases": [
+      "trial personnel"
+    ]
+  },
+  {
+    "id": "13051d99-6045-4641-91f0-872e9da660eb",
+    "term": "court hierarchy: specialisation and appeals",
+    "topicTags": [
+      "U3AOS1",
+      "U3"
+    ],
+    "aliases": [
+      "reasons for court hierarchy"
+    ]
+  },
+  {
+    "id": "95b50c3e-5b88-4ee5-b6af-401a3bfc95de",
+    "term": "costs, time and cultural differences",
+    "topicTags": [
+      "U3AOS1",
+      "U3"
+    ],
+    "aliases": [
+      "barriers to justice (criminal)"
+    ]
+  },
+  {
+    "id": "ac295d0c-3633-4478-a575-998f637b0316",
+    "term": "burden of proof (civil)",
     "topicTags": [
       "U3AOS2",
       "U3"
     ],
     "aliases": [
-      "plea bargaining"
+      "onus of proof (civil)"
     ]
   },
   {
-    "id": "uuid-5",
-    "term": "sentence indications",
+    "id": "91a696aa-f79b-49bb-92ad-ecba9ec81e8b",
+    "term": "standard of proof (civil)",
+    "topicTags": [
+      "U3AOS2",
+      "U3"
+    ],
+    "aliases": [
+      "balance of probabilities"
+    ]
+  },
+  {
+    "id": "84d672cb-115f-4251-85e5-bb0cd6169ece",
+    "term": "factors before initiating a claim",
+    "topicTags": [
+      "U3AOS2",
+      "U3"
+    ],
+    "aliases": [
+      "costs",
+      "limitation of actions",
+      "enforcement issues"
+    ]
+  },
+  {
+    "id": "44ea7946-7301-402a-9296-d4676c5cc2a0",
+    "term": "mediation",
     "topicTags": [
       "U3AOS2",
       "U3"
@@ -53,18 +281,357 @@
     "aliases": []
   },
   {
-    "id": "uuid-6",
-    "term": "Mabo v Queensland (No 2) (1992)",
+    "id": "328f9a27-1c34-4f2f-be8c-f3d19b4bd50c",
+    "term": "conciliation",
+    "topicTags": [
+      "U3AOS2",
+      "U3"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "2a4b35bb-b84e-4016-a748-1790f96143d4",
+    "term": "arbitration",
+    "topicTags": [
+      "U3AOS2",
+      "U3"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "505939db-86cb-41eb-aced-5a4e9849bafc",
+    "term": "reasons for court hierarchy (civil)",
+    "topicTags": [
+      "U3AOS2",
+      "U3"
+    ],
+    "aliases": [
+      "administrative convenience",
+      "appeals (civil)"
+    ]
+  },
+  {
+    "id": "b3feb50d-e936-476e-a513-68b3c5903e41",
+    "term": "role of judge (civil)",
+    "topicTags": [
+      "U3AOS2",
+      "U3"
+    ],
+    "aliases": [
+      "case management powers"
+    ]
+  },
+  {
+    "id": "eb3ba533-516a-4731-95ac-73f316f5e390",
+    "term": "role of jury (civil)",
+    "topicTags": [
+      "U3AOS2",
+      "U3"
+    ],
+    "aliases": [
+      "civil jury"
+    ]
+  },
+  {
+    "id": "716efbb0-ce3d-47ab-bd0b-58cb85e6fc22",
+    "term": "class action",
+    "topicTags": [
+      "U3AOS2",
+      "U3"
+    ],
+    "aliases": [
+      "representative proceeding"
+    ]
+  },
+  {
+    "id": "e2865b50-7c48-4aa3-ba79-b172318a2e02",
+    "term": "Consumer Affairs Victoria (CAV)",
+    "topicTags": [
+      "U3AOS2",
+      "U3"
+    ],
+    "aliases": [
+      "CAV"
+    ]
+  },
+  {
+    "id": "11142ec3-372a-4d91-b1e5-f6ae82ad57f8",
+    "term": "Victorian Civil and Administrative Tribunal (VCAT)",
+    "topicTags": [
+      "U3AOS2",
+      "U3"
+    ],
+    "aliases": [
+      "VCAT"
+    ]
+  },
+  {
+    "id": "d96a1e61-ebaa-491f-9533-9ca7f6958edb",
+    "term": "damages",
+    "topicTags": [
+      "U3AOS2",
+      "U3"
+    ],
+    "aliases": [
+      "compensatory damages",
+      "nominal damages",
+      "exemplary damages"
+    ]
+  },
+  {
+    "id": "3cb713dc-864a-44c3-be37-d559d79bf7dd",
+    "term": "injunction",
+    "topicTags": [
+      "U3AOS2",
+      "U3"
+    ],
+    "aliases": [
+      "injunctions"
+    ]
+  },
+  {
+    "id": "6a7daadb-cdf4-4bf1-9987-c40ab38e720c",
+    "term": "costs and time (civil)",
+    "topicTags": [
+      "U3AOS2",
+      "U3"
+    ],
+    "aliases": [
+      "barriers to justice (civil)"
+    ]
+  },
+  {
+    "id": "efa31254-18cc-4659-b393-734230a0642e",
+    "term": "Crown",
     "topicTags": [
       "U4AOS1",
       "U4"
     ],
     "aliases": [
-      "Mabo"
+      "the Crown",
+      "Governor-General",
+      "Governor"
     ]
   },
   {
-    "id": "uuid-7",
+    "id": "2e6361bc-f66c-454c-a7cb-1e45c17aa3bd",
+    "term": "Houses of Parliament",
+    "topicTags": [
+      "U4AOS1",
+      "U4"
+    ],
+    "aliases": [
+      "House of Representatives",
+      "Senate",
+      "Legislative Assembly",
+      "Legislative Council"
+    ]
+  },
+  {
+    "id": "440c4175-d291-48eb-b184-90e0fd59d22c",
+    "term": "exclusive powers",
+    "topicTags": [
+      "U4AOS1",
+      "U4"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "9182cb03-75c0-4b0b-9287-5d6cda770b33",
+    "term": "concurrent powers",
+    "topicTags": [
+      "U4AOS1",
+      "U4"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "84aaebad-28a1-408b-9e18-09cdcb6a5638",
+    "term": "residual powers",
+    "topicTags": [
+      "U4AOS1",
+      "U4"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "920c544a-aeec-4940-a75f-460794b13e3c",
+    "term": "section 109 (inconsistency rule)",
+    "topicTags": [
+      "U4AOS1",
+      "U4"
+    ],
+    "aliases": [
+      "s109"
+    ]
+  },
+  {
+    "id": "3abd776e-75e5-4a6b-91b7-ef9248e5dd84",
+    "term": "High Court and constitutional interpretation",
+    "topicTags": [
+      "U4AOS1",
+      "U4"
+    ],
+    "aliases": [
+      "High Court role"
+    ]
+  },
+  {
+    "id": "38a998b8-c073-4d9c-87ce-4d424b114b6c",
+    "term": "bicameral structure of parliament",
+    "topicTags": [
+      "U4AOS1",
+      "U4"
+    ],
+    "aliases": [
+      "bicameralism"
+    ]
+  },
+  {
+    "id": "054dddd8-86e5-402b-afde-629d2684876b",
+    "term": "representative nature of parliament",
+    "topicTags": [
+      "U4AOS1",
+      "U4"
+    ],
+    "aliases": [
+      "representative government"
+    ]
+  },
+  {
+    "id": "a8ff4b3b-f5c8-486c-90fd-2a7160d080ce",
+    "term": "international pressures",
+    "topicTags": [
+      "U4AOS1",
+      "U4"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "17cab483-475d-47f8-9432-7c69f9130599",
+    "term": "separation of powers",
+    "topicTags": [
+      "U4AOS1",
+      "U4"
+    ],
+    "aliases": [
+      "legislative power",
+      "executive power",
+      "judicial power"
+    ]
+  },
+  {
+    "id": "1e729e80-0928-4e7f-b119-6dc42c466043",
+    "term": "express rights",
+    "topicTags": [
+      "U4AOS1",
+      "U4"
+    ],
+    "aliases": [
+      "express constitutional rights"
+    ]
+  },
+  {
+    "id": "2259c76d-2ee6-4fa1-bc08-0061386a357d",
+    "term": "statutory interpretation",
+    "topicTags": [
+      "U4AOS1",
+      "U4"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "9ce7c414-9059-413e-8495-a0c47c9693fc",
+    "term": "doctrine of precedent",
+    "topicTags": [
+      "U4AOS1",
+      "U4"
+    ],
+    "aliases": [
+      "binding precedent",
+      "persuasive precedent"
+    ]
+  },
+  {
+    "id": "b9bfbf42-712f-4db1-b0b6-e238fa9c852c",
+    "term": "reversing, overruling, distinguishing, disapproving",
+    "topicTags": [
+      "U4AOS1",
+      "U4"
+    ],
+    "aliases": [
+      "precedent techniques"
+    ]
+  },
+  {
+    "id": "417bf806-a383-4364-9b8f-8c15629018f4",
+    "term": "judicial conservatism",
+    "topicTags": [
+      "U4AOS1",
+      "U4"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "e1e90613-0b4e-4a6d-aed8-7fd7da2ceff5",
+    "term": "judicial activism",
+    "topicTags": [
+      "U4AOS1",
+      "U4"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "8747bcd7-28b6-49d7-9325-954693da48c3",
+    "term": "costs and time in bringing a case",
+    "topicTags": [
+      "U4AOS1",
+      "U4"
+    ],
+    "aliases": [
+      "access to courts"
+    ]
+  },
+  {
+    "id": "ead2197e-4b40-4e35-b146-fd7889c320da",
+    "term": "requirement for standing",
+    "topicTags": [
+      "U4AOS1",
+      "U4"
+    ],
+    "aliases": [
+      "locus standi"
+    ]
+  },
+  {
+    "id": "63e453e0-34db-4e5c-b169-e35c7435b5e9",
+    "term": "supremacy of parliament",
+    "topicTags": [
+      "U4AOS1",
+      "U4"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "16428654-a58b-4084-aa10-db8e5d9d12fb",
+    "term": "codification of common law",
+    "topicTags": [
+      "U4AOS1",
+      "U4"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "9c74740f-87a8-4b98-bee6-c177e3156e06",
+    "term": "abrogation of common law",
+    "topicTags": [
+      "U4AOS1",
+      "U4"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "7394ea74-f70d-445f-9530-0972b0b7dc77",
     "term": "Roach v Electoral Commissioner (2007)",
     "topicTags": [
       "U4AOS1",
@@ -75,8 +642,19 @@
     ]
   },
   {
-    "id": "uuid-8",
-    "term": "separation of powers",
+    "id": "da5b28a5-e3ec-42a6-91a2-604f67af27f2",
+    "term": "Mabo v Queensland (No 2) (1992)",
+    "topicTags": [
+      "U4AOS1",
+      "U4"
+    ],
+    "aliases": [
+      "Mabo"
+    ]
+  },
+  {
+    "id": "348b5692-a70e-4eeb-b3f2-eda90e6b87fd",
+    "term": "reasons for law reform",
     "topicTags": [
       "U4AOS2",
       "U4"
@@ -84,14 +662,113 @@
     "aliases": []
   },
   {
-    "id": "uuid-9",
-    "term": "referendum",
+    "id": "0ec53686-8719-4b3c-95fc-2dd2d6b026e1",
+    "term": "petitions",
     "topicTags": [
       "U4AOS2",
       "U4"
     ],
     "aliases": [
+      "petition"
+    ]
+  },
+  {
+    "id": "b6fc6e08-8d57-417d-95f7-322774e399f4",
+    "term": "demonstrations",
+    "topicTags": [
+      "U4AOS2",
+      "U4"
+    ],
+    "aliases": [
+      "protests"
+    ]
+  },
+  {
+    "id": "8ad64085-d5f4-4b6d-b17a-ea5983ecd0ab",
+    "term": "use of the courts (law reform)",
+    "topicTags": [
+      "U4AOS2",
+      "U4"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "50a65b12-24de-426a-a1ef-167d68645180",
+    "term": "role of the media in law reform",
+    "topicTags": [
+      "U4AOS2",
+      "U4"
+    ],
+    "aliases": [
+      "social media"
+    ]
+  },
+  {
+    "id": "f9510ea9-d517-4650-93c3-5641030203f6",
+    "term": "Victorian Law Reform Commission (VLRC)",
+    "topicTags": [
+      "U4AOS2",
+      "U4"
+    ],
+    "aliases": [
+      "VLRC"
+    ]
+  },
+  {
+    "id": "090733ec-bfb9-4506-a2a5-f2d6ca5a770b",
+    "term": "Royal Commission",
+    "topicTags": [
+      "U4AOS2",
+      "U4"
+    ],
+    "aliases": [
+      "Royal Commissions"
+    ]
+  },
+  {
+    "id": "564d9127-0fa3-4b6f-aa95-9bac7d63f855",
+    "term": "parliamentary committee",
+    "topicTags": [
+      "U4AOS2",
+      "U4"
+    ],
+    "aliases": [
+      "parliamentary committees"
+    ]
+  },
+  {
+    "id": "f19826b5-2bba-4915-bfac-dcf05ef165c8",
+    "term": "referendum double majority",
+    "topicTags": [
+      "U4AOS2",
+      "U4"
+    ],
+    "aliases": [
+      "double majority",
       "constitutional referendum"
+    ]
+  },
+  {
+    "id": "6b5a288e-38ca-427b-9847-dfa21f48fbce",
+    "term": "1967 referendum",
+    "topicTags": [
+      "U4AOS2",
+      "U4"
+    ],
+    "aliases": [
+      "1967"
+    ]
+  },
+  {
+    "id": "8741c51f-6c90-4296-b98f-d39e29425568",
+    "term": "2023 referendum (Aboriginal and Torres Strait Islander Voice)",
+    "topicTags": [
+      "U4AOS2",
+      "U4"
+    ],
+    "aliases": [
+      "2023 Voice referendum",
+      "Voice referendum"
     ]
   }
 ]
