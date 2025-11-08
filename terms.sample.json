@@ -1,0 +1,97 @@
+[
+  {
+    "id": "uuid-1",
+    "term": "presumption of innocence",
+    "topicTags": [
+      "U3AOS1",
+      "U3"
+    ],
+    "aliases": [
+      "innocent until proven guilty"
+    ]
+  },
+  {
+    "id": "uuid-2",
+    "term": "standard of proof",
+    "topicTags": [
+      "U3AOS1",
+      "U3"
+    ],
+    "aliases": [
+      "beyond reasonable doubt"
+    ]
+  },
+  {
+    "id": "uuid-3",
+    "term": "burden of proof",
+    "topicTags": [
+      "U3AOS1",
+      "U3"
+    ],
+    "aliases": [
+      "onus of proof"
+    ]
+  },
+  {
+    "id": "uuid-4",
+    "term": "plea negotiations",
+    "topicTags": [
+      "U3AOS2",
+      "U3"
+    ],
+    "aliases": [
+      "plea bargaining"
+    ]
+  },
+  {
+    "id": "uuid-5",
+    "term": "sentence indications",
+    "topicTags": [
+      "U3AOS2",
+      "U3"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "uuid-6",
+    "term": "Mabo v Queensland (No 2) (1992)",
+    "topicTags": [
+      "U4AOS1",
+      "U4"
+    ],
+    "aliases": [
+      "Mabo"
+    ]
+  },
+  {
+    "id": "uuid-7",
+    "term": "Roach v Electoral Commissioner (2007)",
+    "topicTags": [
+      "U4AOS1",
+      "U4"
+    ],
+    "aliases": [
+      "Roach case"
+    ]
+  },
+  {
+    "id": "uuid-8",
+    "term": "separation of powers",
+    "topicTags": [
+      "U4AOS2",
+      "U4"
+    ],
+    "aliases": []
+  },
+  {
+    "id": "uuid-9",
+    "term": "referendum",
+    "topicTags": [
+      "U4AOS2",
+      "U4"
+    ],
+    "aliases": [
+      "constitutional referendum"
+    ]
+  }
+]

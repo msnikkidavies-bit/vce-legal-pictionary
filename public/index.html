@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>VCE Legal Pictionary (Units 3–4)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1>VCE Legal Pictionary</h1>
+      <div class="brand">Units 3–4</div>
+    </header>
+
+    <main>
+      <section id="auth">
+        <div class="card">
+          <h2>Teacher</h2>
+          <button id="btnCreateRoom">Create Room</button>
+          <div id="teacherPanel" class="hidden">
+            <div class="roomcode">Room Code: <strong id="roomCode"></strong></div>
+            <div class="filters">
+              <h3>Topic Filters (students cannot see)</h3>
+              <label><input type="checkbox" value="U3AOS1"> Unit 3 Area of Study 1</label>
+              <label><input type="checkbox" value="U3AOS2"> Unit 3 Area of Study 2</label>
+              <label><input type="checkbox" value="U3"> Unit 3</label>
+              <label><input type="checkbox" value="U4AOS1"> Unit 4 Area of Study 1</label>
+              <label><input type="checkbox" value="U4AOS2"> Unit 4 Area of Study 2</label>
+              <label><input type="checkbox" value="U4"> Unit 4</label>
+              <div class="rounds">
+                <label>Auto-End after N rounds (optional): <input id="autoRounds" type="number" min="1" placeholder="e.g., 10"></label>
+              </div>
+            </div>
+            <div class="host-actions">
+              <button id="btnStartGame">Start Game</button>
+              <button id="btnStopGame" class="danger">Stop Game</button>
+              <button id="btnClearCanvas" class="subtle">Clear Canvas</button>
+            </div>
+
+            <details class="terms-panel">
+              <summary>Manage Terms (paste JSON)</summary>
+              <textarea id="termsJson" rows="8" placeholder='[{"id":"1","term":"...","topicTags":["U3AOS1"],"aliases":[]}]'></textarea>
+              <button id="btnUploadTerms">Replace Terms for This Room</button>
+              <div id="termUploadResult" class="muted"></div>
+            </details>
+
+            <div class="lobby">
+              <h3>Lobby</h3>
+              <div class="lists">
+                <div>
+                  <h4>Players</h4>
+                  <ul id="playerList"></ul>
+                </div>
+                <div>
+                  <h4>Spectators</h4>
+                  <ul id="spectatorList"></ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <h2>Student</h2>
+          <label>Room Code <input id="joinCode" maxlength="6" /></label>
+          <label>First Name <input id="joinName" /></label>
+          <button id="btnJoin">Join Room</button>
+          <div id="joinResult" class="muted"></div>
+        </div>
+      </section>
+
+      <section id="game" class="hidden">
+        <div class="game-layout">
+          <div class="left">
+            <div class="status">
+              <div>Round: <span id="roundNum">-</span></div>
+              <div>Timer: <span id="timer">--</span></div>
+              <div class="role">Role: <span id="role">-</span></div>
+            </div>
+
+            <div id="drawerOptions" class="hidden">
+              <h3>Choose a term</h3>
+              <div id="optionButtons"></div>
+            </div>
+
+            <canvas id="canvas" width="400" height="300"></canvas>
+            <div id="tools" class="tools">
+              <div>
+                <label>Tool:</label>
+                <button data-tool="pen">Pen</button>
+                <button data-tool="eraser">Eraser</button>
+                <button id="btnClear" class="subtle">Clear</button>
+              </div>
+              <div>
+                <label>Size:</label>
+                <button data-size="2">S</button>
+                <button data-size="4">M</button>
+                <button data-size="8">L</button>
+              </div>
+              <div>
+                <label>Colour:</label>
+                <button data-color="#000000"></button>
+                <button data-color="#006A3D"></button>
+                <button data-color="#FFC107"></button>
+                <button data-color="#87CEEB"></button>
+                <button data-color="#FF5722"></button>
+                <button data-color="#9C27B0"></button>
+              </div>
+            </div>
+
+            <div id="guessBox" class="guessbox">
+              <input id="guessInput" placeholder="Type your guess..." />
+              <button id="btnGuess">Guess</button>
+            </div>
+
+            <div id="termReveal" class="reveal hidden"></div>
+          </div>
+
+          <div class="right">
+            <div class="lead">
+              <h3>Leaderboard</h3>
+              <ol id="leaderboard"></ol>
+            </div>
+            <div class="stream">
+              <h3>Guesses</h3>
+              <div id="guessStream" class="streambox"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="./client.js"></script>
+</body>
+</html>
